@@ -1,4 +1,4 @@
-require 'pry'
+
 def unsafe?(speed)
 if speed < 40 
 true
@@ -6,7 +6,7 @@ elseif speed > 60
   true
 else
   false
-binding.pry  
+
 end
 end
 
